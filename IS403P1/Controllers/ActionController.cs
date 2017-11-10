@@ -13,5 +13,17 @@ namespace IS403P1.Controllers
         {
             return View();
         }
+
+        public ActionResult Asked(string mish, string prez, string addy, string lang, string climate, string religion, string flag)
+        {
+            ViewBag.Mission = mish;
+            ViewBag.President = prez;
+            ViewBag.Address = addy;
+            ViewBag.Language = lang;
+            ViewBag.Climate = climate;
+            ViewBag.Religion = religion;
+            ViewBag.Flag = flag;
+            return View();
+        }
     }
 }
