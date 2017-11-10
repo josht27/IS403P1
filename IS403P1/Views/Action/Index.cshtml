@@ -3,6 +3,18 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
-<h3>I'm an action</h3>
-<h2>I'm not an action</h2>
+<div class="container">
+    <h2>Ask the Missionaries!</h2>
+    <p>Here's your opportunity to ask returned missionaries questions about the mission field.</p>
+    <div class="dropdown">
+        <button class="btn btn-danger dropdown-toggle" type="button" data-toggle="dropdown">
+            Select a Mission
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="@Url.Action("Asked", "Action", new { mish = "Ecuador Guayaquil North", prez = "Riggins", addy = "Cdla. Kennedy Vieja, Calle G, No 601 y la 8va. Oeste, Edif. Mallorca 3er piso Guayqauil, Guayas, Ecuador", lang = "Spanish", climate = "Hot & Humid", religion = "Catholic", flag = "poop"})">Ecuador Guayaquil North</a></li>
+            <li><a href="@Url.Action("Asked", "Action", new { mish = "Mexico City Chalco", prez = "CrickMore", addy = "Calle Porvenir No. 8 Colonia Centro C.P. 56600 Chalco, Estado de Mexico, Mexico", lang = "Spanish", climate = "Temperate", religion = "Catholic", flag = "poop" })">Mexico City Chalco</a></li>
+            <li><a href="@Url.Action("Asked", "Action", new { mish = "South Carolina Columbia", prez = "Holm", addy = "110 Oak Park Dr. Suite B Irmo SC 29063", lang = "Spanish", climate = "Hot & Humid", religion = "Baptist", flag = "poop" })">South Carolina Columbia</a></li>
+        </ul>
+    </div>
+</div>
