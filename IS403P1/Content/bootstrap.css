@@ -6212,6 +6212,10 @@ body.modal-open,
   clear: both;
 }
 
+.container-fluid {
+    color:aqua;
+}
+
 .pull-right {
   float: right !important;
 }
