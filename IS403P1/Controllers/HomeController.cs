@@ -15,7 +15,7 @@ namespace IS403P1.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "We are the Green Dragons";
 
             return View();
         }

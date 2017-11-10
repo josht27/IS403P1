@@ -155,6 +155,7 @@
     <Content Include="Content\Images\flag_EC.png" />
     <Content Include="Content\Images\flag_MX.jpg" />
     <Content Include="Content\Images\flag_SC.png" />
+    <Content Include="Content\Image\Green Dragons.JPG" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
