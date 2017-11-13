@@ -394,6 +394,8 @@ img {
 
 .img-circle {
   border-radius: 50%;
+  height: 200px;
+  width: 250px;
 }
 
 hr {
